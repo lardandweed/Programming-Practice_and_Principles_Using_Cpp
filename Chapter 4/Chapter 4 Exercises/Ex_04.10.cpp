@@ -10,7 +10,6 @@ int main()
 	string again = "?";
 
 	while (!cin.eof()) {
-		
 		while (1) {		// repeat request until valid input is entered
 			cout << "Please enter a positive integer:\n";
 			if (!(cin >> input1) || input1 < 0) {
